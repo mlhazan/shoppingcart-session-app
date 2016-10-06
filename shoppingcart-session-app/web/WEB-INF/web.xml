@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>CatalogPage</servlet-name>
+        <servlet-class>com.servlets.CatalogPage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>OrderPage</servlet-name>
+        <servlet-class>com.servlets.OrderPage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>KidsBookPage</servlet-name>
+        <servlet-class>com.servlets.KidsBookPage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TechBooksPage</servlet-name>
+        <servlet-class>com.servlets.TechBooksPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CatalogPage</servlet-name>
+        <url-pattern>/CatalogPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderPage</servlet-name>
+        <url-pattern>/OrderPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KidsBookPage</servlet-name>
+        <url-pattern>/KidsBookPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TechBooksPage</servlet-name>
+        <url-pattern>/TechBooksPage</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
