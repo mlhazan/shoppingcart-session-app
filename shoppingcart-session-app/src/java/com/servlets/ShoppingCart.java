@@ -45,13 +45,10 @@ public class ShoppingCart {
 
      /**
       * Looks through cart to find order entry corresponding to item ID listed.
-      * If the designated number
-      *
-      * * is positive, sets it. If designated number is 0 (or, negative due to
-      * a user input error), deletes item from cart.
+      * If the designated number is positive, sets it. If designated number is 0
+      * (or, negative due to a user input error), deletes item from cart.
       */
-     public synchronized void setNumOrdered(String itemID,
-             int numOrdered) {
+     public synchronized void setNumOrdered(String itemID, int numOrdered) {
           ItemOrder order;
           for (int i = 0; i < itemsOrdered.size(); i++) {
                order = (ItemOrder) itemsOrdered.elementAt(i);

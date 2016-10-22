@@ -2,14 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/ItemOrder.java</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/ShoppingCart.java</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/web/index.jsp</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/OrderPage.java</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/KidsBookPage.java</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/CatalogPage.java</file>
-            <file>file:/D:/Development/web-app/shoppingcart-session-app-java/shoppingcart-session-app/src/java/com/servlets/TechBooksPage.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

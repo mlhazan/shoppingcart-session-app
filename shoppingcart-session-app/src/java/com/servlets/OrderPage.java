@@ -18,8 +18,7 @@ import java.text.NumberFormat;
  */
 public class OrderPage extends HttpServlet {
 
-     public void doGet(HttpServletRequest request,
-             HttpServletResponse response)
+     public void doGet(HttpServletRequest request, HttpServletResponse response)
              throws ServletException, IOException {
           HttpSession session = request.getSession(true);
           ShoppingCart cart;
@@ -35,16 +34,16 @@ public class OrderPage extends HttpServlet {
                if (itemID != null) {
                     String numItemsString = request.getParameter("numItems");
                     if (numItemsString == null) {
-// If request specified an ID but no number,
-// then customers came here via an "Add Item to Cart"
-// button on a catalog page.
+                    // If request specified an ID but no number,
+                    // then customers came here via an "Add Item to Cart"
+                    // button on a catalog page.
                          cart.addItem(itemID);
                     } else {
-// If request specified an ID and number, then
-// customers came here via an "Update Order" button
-// after changing the number of items in order.
-// Note that specifying a number of 0 results
-// in item being deleted from cart.
+                         // If request specified an ID and number, then
+                         // customers came here via an "Update Order" button
+                         // after changing the number of items in order.
+                         // Note that specifying a number of 0 results
+                         // in item being deleted from cart.
                          int numItems;
                          try {
                               numItems = Integer.parseInt(numItemsString);
